@@ -1,4 +1,24 @@
 
-img{
-    
+/*img{
+    size:50%;
+    width:50%;
+    height:50%;
+    } */
+.Logo{ 
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.Search{ 
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
+.suggestions{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
