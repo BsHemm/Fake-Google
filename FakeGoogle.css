@@ -52,3 +52,7 @@ float:right;
      border-radius: 5px 10px 15px 20px; /* top left, top right, bottom right, bottom left */
      background: #f2f2f2;
 }
+.suggestionsgrid
+{
+    grid-row: 2 / span 5;
+}
