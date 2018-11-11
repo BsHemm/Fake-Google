@@ -23,13 +23,25 @@
     width: 50%;
 }
 #seachbar2{
-    text-align:left;
-    font-family:sans-serif;
+    border-radius:25px;
+    backface-visibility:transparent;
+    background:grey;
+    
     margin:;
-    padding:;
+    padding:20px;
+    height:30px;
+    width:;
     outline:;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    Margin-bottom:;
     width: 45%;
+}
+p{
+    float:left;
+    font-family:sans-serif;
+}
+i{
+float:right;
 }
