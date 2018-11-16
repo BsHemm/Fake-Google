@@ -53,12 +53,16 @@ float:right;
    /*  border-radius: 5px 10px 15px 20px; /* top left, top right, bottom right, bottom left */
     /* background: #f2f2f2;
     border-shape:circle; */
- width: 100px;
- height: 100px;
- background: red;
+ width: 50px;
+ height: 50px;
+ background:#f2f2f2;
  border-radius: 50%
     
 }
+img{
+    float:center
+}
+i{float:center}
 .suggestionsgrid
 {
   display: grid;
