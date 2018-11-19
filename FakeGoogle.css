@@ -59,7 +59,7 @@ float:right;
  border-radius: 50%
     
 }
-img, #fas, #fab{
+img:not(.logo){
     display: block;
     float: center;
     margin-left: auto;
