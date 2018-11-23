@@ -81,5 +81,9 @@ img:not(.logo){
   grid-template-columns: repeat(12, 2fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(10px, auto);
+  grid-column-start: 1;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 2;
 }
 
