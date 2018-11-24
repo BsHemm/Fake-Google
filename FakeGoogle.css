@@ -95,11 +95,11 @@ img:not(.logo){
   display: grid;
   justify-content:center;
   align-content: center;
-    grid-column: 5
+    grid-column: 5;
  grid-row: 2;
  /* grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 2fr); */
+  grid-template-rows: repeat(2, 2fr); 
   grid-gap: 10px;
-  grid-auto-rows: minmax(10px, auto);
+  grid-auto-rows: minmax(10px, auto); */
 
 }
