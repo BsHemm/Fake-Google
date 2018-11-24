@@ -76,14 +76,14 @@ img:not(.logo){
 }
 .gridcontainer
 {
-  border-radius:25px;
+  border-radius:px;
     backface-visibility:transparent;
-    background:#f2f2f2;
+    background:;
     
     margin:;
     padding:20px;
     height:200px;
-    width:;
+    width:60%;
     outline:;
     display: block;
     margin-left: auto;
@@ -93,9 +93,12 @@ img:not(.logo){
 .suggestionsgrid
 {
   display: grid;
- 
-  grid-template-columns: repeat(12, 2fr);
-  grid-template-rows: repeat(2, 2fr);
+  justify-content:center;
+  align-content: center;
+    grid-column: 5
+ grid-row: 2;
+ /* grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 2fr); */
   grid-gap: 10px;
   grid-auto-rows: minmax(10px, auto);
 
