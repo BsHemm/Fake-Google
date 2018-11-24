@@ -74,16 +74,17 @@ img:not(.logo){
     width: 300px;
     padding: 10px; */
 }
-
+.gridcontainer
+{
+    
+}
 .suggestionsgrid
 {
   display: grid;
+ 
   grid-template-columns: repeat(12, 2fr);
+  grid-template-rows: repeat(2, 2fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(10px, auto);
-  grid-column-start: 1;
-  grid-column-end: five;
-  grid-row-start: row1-start;
-  grid-row-end: 2;
-}
 
+}
