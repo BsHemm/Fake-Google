@@ -30,13 +30,13 @@
     margin:;
     padding:20px;
     height:30px;
-    width:;
+    width:45%;
     outline:;
     display: block;
     margin-left: auto;
     margin-right: auto;
     Margin-bottom:;
-    width: 45%;
+    
 }
 p{
 float:top;
@@ -76,7 +76,19 @@ img:not(.logo){
 }
 .gridcontainer
 {
+  border-radius:25px;
+    backface-visibility:transparent;
+    background:#f2f2f2;
     
+    margin:;
+    padding:20px;
+    height:200px;
+    width:;
+    outline:;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Margin-bottom:;  
 }
 .suggestionsgrid
 {
