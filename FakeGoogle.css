@@ -27,7 +27,7 @@
     backface-visibility:transparent;
     background:#f2f2f2;
     
-
+    margin:;
     padding:20px;
     height:30px;
     width:45%;
@@ -74,28 +74,41 @@ img:not(.logo){
     width: 300px;
     padding: 10px; */
 }
-.gridcontainer
+ .gridcontainer
 {
   border-radius:px;
     backface-visibility:transparent;
     background:;
     
-
+    margin:;
     padding:20px;
     height:200px;
     width:60%;
-
+    outline:;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    Margin-bottom:;  
 }
-
-
-.suggestionsgrid
+/*.suggestionsgrid
 {
   display: grid;
+  justify-content:center;
+  align-content: center;
+    grid-column: 5;
+ grid-row: 2;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 2fr); 
   grid-gap: 10px;
   grid-auto-rows: minmax(10px, auto);
+} 
+*/
+
+.suggestionsgrid
+{
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-template-rows: repeat(2, 2fr); 
+ grid-gap: 10px;
+ grid-auto-rows: minmax(10px, auto);
 }
