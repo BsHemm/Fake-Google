@@ -112,3 +112,6 @@ img:not(.logo){
  grid-gap: 10px;
  grid-auto-rows: minmax(10px, auto);
 }
+tr{
+    
+}
